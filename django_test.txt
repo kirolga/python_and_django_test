@@ -1,0 +1,6 @@
+from django.db import models
+from django.db.models import Q
+>> objects = Models.objects.get(
+   Q(tag__startswith='Human'),
+   Q(category=’Eyes’) | Q(category=’Nose’)
+)
