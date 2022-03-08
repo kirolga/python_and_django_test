@@ -1,3 +1,4 @@
+# Что будет выведено в результате данной программы?
 def extendList(val, list=[]):
     list.append(val)
     return list
